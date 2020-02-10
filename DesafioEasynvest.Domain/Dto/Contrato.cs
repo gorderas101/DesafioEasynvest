@@ -77,7 +77,7 @@ namespace DesafioEasynvest.Domain.Dto
 
            
             var difCompraVencimento = CrossCutting.Helper.Util.DataDiff('m', dataVencimento, dataDeCompra);
-            var difCompraResgate = CrossCutting.Helper.Util.DataDiff('m', dataVencimento, dataRestate);
+            var difCompraResgate = CrossCutting.Helper.Util.DataDiff('m', dataDeCompra, dataRestate);
 
             var difVencimentoResgate = difCompraVencimento - difCompraResgate;
 
