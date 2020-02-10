@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioEasynvest.Data\DesafioEasynvest.Data.csproj" />
+    <ProjectReference Include="..\DesafioEasynvest.Domain\DesafioEasynvest.Domain.csproj" />
+    <ProjectReference Include="..\DesafioEasynvest.Gateway\DesafioEasynvest.Gateway.csproj" />
+  </ItemGroup>
+
+</Project>
